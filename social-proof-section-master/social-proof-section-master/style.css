@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    
+    
+}
+
+h1{
+    text-align: center;
+    color: hsl(300, 43%, 22%);
+}
+
+.descc{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.staruno{
+    background-color: hsl(300, 24%, 96%);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+
+.stardos{
+    background-color: hsl(300, 24%, 96%);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.startres{
+    background-color: hsl(300, 24%, 96%);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.purple{
+    color: hsl(300, 43%, 22%);
+    
+}
+
+.star{
+    text-align: center;
+}
+
+
+.profileuno{
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    border-radius: 9px;
+    margin-bottom: 20px;
+    padding: 25px;
+    line-height: 1.5rem;
+}
+
+.profiledos{
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    border-radius: 9px;
+    margin-bottom: 20px;
+    padding: 25px;
+    line-height: 1.5rem;
+}
+
+.profiletres{
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    border-radius: 9px;
+    padding: 25px;
+    line-height: 1.5rem;
+}
+
+.info{
+    display: flex;
+}
+
+.colton{
+    border-radius: 100%;
+    width: 40px;
+    margin-bottom: 15px;
+}
+
+.row{
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.main{
+    margin: 50px;
+}
+
+.stat{
+    color: hsl(333, 80%, 67%);
+}
+
+
+
+@media screen and (min-width:800px){
+
+    .parteuno{
+        width: 100%;
+    }
+
+    h1{
+        text-align: start;
+        font-size: 50px;
+        width: 30%;
+    }
+
+    .descc{
+        text-align:start;
+        width: 28%;
+        font-size: 20px;
+    }
+
+    .star{
+        display: flex;
+        width: 30%;
+        margin-left: 700px;
+        top: -200px;
+        position: relative;
+        
+    }
+
+    .stardos{
+        margin-left: 750px;
+    }
+
+    .startres{
+        margin-left: 800px;
+    }
+
+    .partedos{
+        display: flex; 
+        width: 90%;
+        gap: 20px;
+    }
+
+    .profileuno{
+        position:relative;
+        padding: 35px;
+        top: -30px;
+        
+    }
+
+    .profiledos{
+        position:relative;
+        padding: 35px;
+        top: -20px;
+    }
+
+    .profiletres{
+        position:relative;
+        padding: 35px;
+        top: -10px;
+    }
+}
+
+
